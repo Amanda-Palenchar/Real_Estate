@@ -50,3 +50,6 @@ PyCaret supported the decision to use the Extra Trees Regressor model for machin
 When choosing a model, speed and accuracy were at a premium. Using Extra Trees Regressor was best for the data because we intended to use the entire dataset (which is the default setting and can be changed). This allows Extra Trees regressor to reduce bias in the model. In terms of computational cost, Extra Trees is much faster than Random Forest. This is because Extra Trees randomly selects the value at which to split features.
 
 # Real Estate Value App
+Using the Extra Tree Regressor machine learning model, the web app predicts the price of a house after the user inputs a few features (beds, baths, home size, acre lot, Trader Joe's nearby, and Walmart's nearby) and chooses the predict button. 
+
+![Web_App](Images/Web_App.png)
