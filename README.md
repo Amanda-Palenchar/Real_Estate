@@ -34,7 +34,19 @@ After these processes our finished dataframe was exported to a CSV file. Below i
 ![Clean_Real_Estate](Images/Clean_Real_Estate.png)
 
 ### Data Visualization
+All data visualization was completed using a Tableau Public data story and can be see by clicking [HERE](https://public.tableau.com/app/profile/amanda.palenchar/viz/RealEstateProject_16686111659970/RealEstate). Additionally, below are the most important visualizations.
+
+The **Correlation Matrix** shows that no single feature has a high correlation with the price of real estate. However, baths and Trader Joe's proximity have the highest correlations with Walmart proximity coming in 3rd, albeit a negative correlation. 
+
+<img src="Images/Correlation_Matrix.png" alt="Images/Correlation_Matrix.png" width="500"/>
+
+The **Price & Store Count Deep Dive** shows the average Trader Joe's and Walmart's per piece of real estate with the bar widths representing the median cost of real estate in that state. New York is the only New England state to have far more Trader Joe's per house than Walmart and it also has far higher average price per house.
+
+![Price_Store_Count_Deep_Dive](Images/Price_Store_Count_Deep_Dive.png)
 
 ### Machine Learning
+PyCaret supported the decision to use the Extra Trees Regressor model for machine learning. **This model produced an R² value of 0.911.** This model was then used in the web app to predict a housing value based on the features of the dataset. 
+
+When choosing a model, speed and accuracy were at a premium. Using Extra Trees Regressor was best for the data because we intended to use the entire dataset (which is the default setting and can be changed). This allows Extra Trees regressor to reduce bias in the model. In terms of computational cost, Extra Trees is much faster than Random Forest. This is because Extra Trees randomly selects the value at which to split features.
 
 # Real Estate Value App
