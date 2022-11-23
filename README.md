@@ -34,6 +34,15 @@ After these processes our finished dataframe was exported to a CSV file. Below i
 ![Clean_Real_Estate](Images/Clean_Real_Estate.png)
 
 ### Data Visualization
+All data visualization was completed using a Tableau Public data story and can be see by clicking [HERE](https://public.tableau.com/app/profile/amanda.palenchar/viz/RealEstateProject_16686111659970/RealEstate). Additionally, below are the most important visualizations.
+
+The **Correlation Matrix** shows that no single feature has a high correlation with the price of real estate. However, baths and Trader Joe's proximity have the highest correlations with Walmart proximity coming in 3rd, albeit a negative correlation. 
+
+![Correlation_Matrix](Images/Correlation_Matrix.jpg)
+
+The **Price & Store Count Deep Dive** shows the average Trader Joe's and Walmart's per piece of real estate with the bar widths representing the median cost of real estate in that state. New York is the only New England state to have far more Trader Joe's per house than Walmart and it also has far higher average price per house.
+
+![Price_Store_Count_Deep_Dive](Images/Price_Store_Count_Deep_Dive.jpg)
 
 ### Machine Learning
 
