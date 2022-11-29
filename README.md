@@ -29,7 +29,7 @@ The following processes are present in the Data_Cleaning folder in order to have
 - Adding a TJs_store_count and Walmart_store_count column and merging the number of stores in a given piece of real estate's zip code into those columns
 - Investigating and removing specific outliers
 
-After these processes our finished dataframe was exported to a CSV file. Below is a sample of the dataframe after the ETL process. 
+After these processes, our finished dataframe was exported to a CSV file. Below is a sample of the dataframe after the ETL process. 
 
 ![Clean_Real_Estate](Images/Clean_Real_Estate.png)
 
